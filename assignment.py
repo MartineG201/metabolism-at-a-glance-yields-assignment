@@ -1,4 +1,5 @@
-# Black box model - 1. Calculate the specific yield coefficients (C-mol) for all products.
+# Black box model
+# 1. Calculate the specific yield coefficients (C-mol) for all products.
 
 # Add your calculations here ...
 
@@ -17,4 +18,19 @@ def test_Y_xg():
     assert Y_ge == 0.45 # C-mol
 
     
+# 2. Calculate the carbon balance. Does it close?
+
+# Assign your solutions to the following variable (replace ... with your solutions)
+# carbon_balance = ...
+
+def test_carbon_balance():
+    assert carbon_balance == -0.74 # C-mol
+    
+# 3. Assuming that CO2 is the only missing product, calculate how much CO2 was produced in the fermentation.
+
+# Assign your solutions to the following variable (replace ... with your solutions)
+# co2_produced = ...
+
+def test_co2_produced():
+    assert co2_produced == -0.74 # C-mol
     
