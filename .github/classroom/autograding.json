@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Calculate Yields - Y_xg",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignment.py assignment.py -k 'test_Y_xg'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Calculate Yields - Y_xe",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignment.py assignment.py -k 'test_Y_xe'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Calculate Yields - Y_ge",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignment.py assignment.py -k 'test_Y_xe'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
