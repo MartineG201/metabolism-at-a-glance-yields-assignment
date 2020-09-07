@@ -1,4 +1,4 @@
-# Metabolism at a glance - Exercise 2
+# Metabolism at a glance - Assignment
 ## Black box model
 
 In a batch fermentation experiment:
